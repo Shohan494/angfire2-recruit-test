@@ -1,0 +1,16 @@
+npm install -g angular-cli
+# or install locally
+npm install angular-cli --save-dev
+# make sure you have typings installed
+npm install -g typings
+npm install -g typescript
+
+# angular 2
+ng new <project-name>
+
+# firebase and angularfire2
+npm install angularfire2 firebase --save
+
+
+
+
