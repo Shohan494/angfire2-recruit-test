@@ -20,6 +20,14 @@ git commit -m "initialized"
 
 # followed official angularfire 2 docs to inject angular and retrieve data from firebase db
 
+# trying to use reactive form for submitting data (todd motto blog post)
+
+# trying to set up the routing
+
+# if we want to activate routing then we have to split the "app.component parts" into a main file
+
+
+
 
 
 

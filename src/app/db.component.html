@@ -1,0 +1,19 @@
+<h1>
+  {{title}}
+</h1>
+<h2>Datas are showing from Firebase Database</h2>
+
+<!--
+<h3>Id no: {{ (data | async)?.id }}</h3>
+<h3>Email: {{ (data | async)?.email }}</h3>
+<h3>Password: Hidden</h3>
+-->
+<ol>
+<li *ngFor="let admin of admins | async">
+  <h3>Email: {{ admin.email }}</h3>
+  <h3>Id: {{ admin.id }}</h3>
+  <h3>Password: Hidden</h3>
+</li>
+</ol>
+<button (click)="goBack()">Back</button>
+
