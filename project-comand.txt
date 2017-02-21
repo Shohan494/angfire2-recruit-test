@@ -11,6 +11,15 @@ ng new <project-name>
 # firebase and angularfire2
 npm install angularfire2 firebase --save
 
+# initialize git, commit
+git init
+git add .
+git commit -m "initialized"
+
+# firebase configuration edit in src/app/app.module.ts
+
+
+
 
 
 
