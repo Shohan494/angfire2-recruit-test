@@ -18,6 +18,8 @@ git commit -m "initialized"
 
 # firebase configuration edit in src/app/app.module.ts
 
+# followed official angularfire 2 docs to inject angular and retrieve data from firebase db
+
 
 
 

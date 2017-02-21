@@ -16,6 +16,9 @@ export const firebaseConfig = {
   messagingSenderId: "905651257461"
 };
 
+//database reference
+//const database = firebase.database();
+
 @NgModule({
   declarations: [
     AppComponent
